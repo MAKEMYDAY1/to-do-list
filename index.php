@@ -60,7 +60,7 @@ require 'db_connect.php';
                     <h2><?php echo $todo['title'] ?></h2>
                 <?php } ?>
                 <br>
-                <small>created: 2<?php echo $todo['date_time'] ?></small>
+                <small>created: <?php echo $todo['date_time'] ?></small>
             </div>
             <?php } ?>
         </div>
